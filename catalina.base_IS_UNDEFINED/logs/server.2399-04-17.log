@@ -1,0 +1,19 @@
+10:59:05.733 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 48760 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+10:59:05.735 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+10:59:07.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+10:59:07.451 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+10:59:07.452 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:59:07.452 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+10:59:07.596 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+10:59:07.598 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1798 ms
+10:59:11.347 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6df2af02, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@779228dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d6c4079, org.springframework.security.web.header.HeaderWriterFilter@47198524, org.springframework.web.filter.CorsFilter@1f7336b2, org.springframework.security.web.authentication.logout.LogoutFilter@278de2b2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fc1c7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@573a078, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b5798c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c030fe1, org.springframework.security.web.session.SessionManagementFilter@55e91e61, org.springframework.security.web.access.ExceptionTranslationFilter@4bbc21bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31693a86]
+10:59:11.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+10:59:11.652 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+10:59:11.682 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 6.506 seconds (JVM running for 7.535)
+10:59:13.198 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:59:13.200 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10:59:13.203 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+10:59:15.772 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+10:59:16.120 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+10:59:32.566 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:59:32.587 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
