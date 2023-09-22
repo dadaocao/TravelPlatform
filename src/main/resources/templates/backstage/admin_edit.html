@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Edit User</title>
+    <th:block th:replace="/backstage/common_resources::common_css"></th:block>
+    <th:block th:replace="/backstage/common_resources::common_js"></th:block>
+</head>
+<body class="hold-transition skin-purple sidebar-mini">
+<header th:replace="~{/backstage/common_header::header}"></header>
+<aside th:replace="~{/backstage/common_aside::aside}"></aside>
+<div class="wrapper">
+    <div class="content-wrapper">
+        <!-- 内容头部 -->
+        <section class="content-header">
+            <h1>
+                User Management
+                <small>Edit User</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="@{/backstage/index}"><i class="fa fa-dashboard"></i> Index</a></li>
+                <li><a href="@{/backstage/admin/all}"> User Management</a></li>
+                <li class="active">Edit User</li>
+            </ol>
+        </section>
+        <!-- 内容头部 /-->
+
+        <!-- 正文区域 -->
+        <section class="content">
+            <form th:action="@{/backstage/admin/update}" method="post">
+                <input type="hidden" th:value="${admin.aid}" name="aid">
+                <div class="row data-type">
+                    <div class="col-md-2 title">User Name</div>
+                    <div class="col-md-4 data">
+                        <input type="text" class="form-control" placeholder="User Name" name="username" th:value="${admin.username}">
+                    </div>
+                    <div class="col-md-2 title">Password</div>
+                    <div class="col-md-4 data">
+                        <input type="password" class="form-control" placeholder="Password" name="password" th:value="${admin.password}">
+                    </div>
+                    <div class="col-md-2 title">Email</div>
+                    <div class="col-md-4 data">
+                        <input type="text" class="form-control" placeholder="Email" name="email" th:value="${admin.email}">
+                    </div>
+                    <div class="col-md-2 title">Phone Number</div>
+                    <div class="col-md-4 data">
+                        <input type="text" class="form-control" placeholder="Phone Number" name="phoneNum" th:value="${admin.phoneNum}">
+                    </div>
+                    <div class="col-md-2 title">Status</div>
+                    <div class="col-md-4 data">
+                        <select class="form-control" name="status">
+                            <option value="true">On</option>
+                            <option value="false">Off</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2 title"></div>
+                    <div class="col-md-10 data text-center">
+                        <button type="submit" class="btn bg-maroon">Save</button>
+                        <button type="button" class="btn bg-default" onclick="history.back(-1);">Back</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- 正文区域 /-->
+
+    </div>
+</div>
+<footer th:replace="~{/backstage/common_footer::footer}"></footer>
+</body>
+</html>

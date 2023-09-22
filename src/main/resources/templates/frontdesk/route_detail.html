@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Route Detail</title>
+    <link rel="stylesheet" type="text/css" href="/frontdesk/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/frontdesk/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/frontdesk/css/route-detail.css">
+    <script src="/frontdesk/js/jquery-3.3.1.js"></script>
+    <script src="/frontdesk/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!--引入头部-->
+<header th:replace="~{/frontdesk/header::header}"></header>
+<!-- 详情 start -->
+<div class="wrap">
+    <p class="pros_title" th:text="${product.productName}"></p>
+    <div class="prosum_box">
+        <div class="prosum_left">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img th:src="${product.pImage}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="prosum_right">
+            <div class="info">
+                <p class="price"><span th:text="${product.price}"></span>+</p>
+                <p class="hotline">Contact Info:<span th:text="${product.hotline}">13812345678</span></p>
+                <div class="opera">
+                    <a th:href="@{/frontdesk/favorite/add(pid=${product.pid})}" th:if="!${favorite}">
+                        <button class="btn btn-danger"><i style="vertical-align:middle;margin-right:5px"
+                                                          class="glyphicon glyphicon-heart-empty"></i>Click to save
+                        </button>
+                    </a>
+                    <a th:href="@{/frontdesk/favorite/del(pid=${product.pid})}" th:if="${favorite}">
+                        <button class="btn already"><i style="vertical-align:middle;margin-right:5px"
+                                                       class="glyphicon glyphicon-heart-empty"></i>Remove from favorite
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="discount">
+                <span>Promotional activities: 100% discount when paying with credit card</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="you_need_konw">
+        <span>Route Details</span>
+        <div class="notice" th:utext="${product.productDesc}"></div>
+    </div>
+
+    <div class="you_need_konw">
+        <span>Travel Tips</span>
+        <div class="notice">
+            <p>1、Tourists are advised to purchase travel accident insurance. <br>
+
+            <p>
+                2、The travel agency has taken out travel agency liability insurance.
+            </p>
+
+            <p>
+                3、Always wear life-saving equipment when participating in water activities.
+            </p>
+            <p>
+                4、Stay safe and happy travel!
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 详情 end -->
+
+<!-- 引入底部 -->
+<footer th:replace="~{/frontdesk/footer::footer}"></footer>
+</body>
+</html>

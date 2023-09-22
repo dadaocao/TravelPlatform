@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Failed</title>
+    <th:block th:replace="/backstage/common_resources::common_css"></th:block>
+    <th:block th:replace="/backstage/common_resources::common_js"></th:block>
+</head>
+<body class="hold-transition skin-purple sidebar-mini">
+<div class="wrapper">
+    <div class="content-wrapper">
+        <h2>Wrong username or password，please<a href="/backstage/admin_login">try</a>again.</h2>
+    </div>
+</div>
+<footer th:replace="~{/backstage/common_footer::footer}"></footer>
+</body>
+</html>

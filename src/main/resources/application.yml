@@ -1,0 +1,51 @@
+# ?? ????????
+server:
+  port: 80
+
+# ???
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///travel?serverTimezone=UTC
+    #    url: jdbc:mysql://192.168.0.155:3306/travel?serverTimezone=UTC
+    username: root
+    password: 19981119
+
+    # ????
+    servlet:
+      multipart:
+        max-file-size: 10MB # ??????
+        max-request-size: 10MB # ????????
+
+#    # ??jar???????????????
+#    thymeleaf:
+#      mode: HTML
+#      cache: false
+#      prefix: classpath:/templates
+
+
+#??mybatis-plus
+mybatis-plus:
+  global-config:
+    db-config:
+      # ?????????
+      id-type: auto
+  configuration:
+    # ??????????????
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #??sql??
+
+# ????
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+# ??????
+mail:
+  user: 577974412@qq.com
+  password: docizmcjzlghbccg
+
+# ????
+project:
+  path: http://localhost
+#  path: http://192.168.0.155

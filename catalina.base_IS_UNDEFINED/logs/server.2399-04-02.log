@@ -1,0 +1,869 @@
+00:35:36.323 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 23369 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+00:35:36.325 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+00:35:37.984 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+00:35:37.993 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+00:35:37.994 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:35:37.994 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+00:35:38.095 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:38.096 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1713 ms
+00:35:40.215 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e2c6fd6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ff6804a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d235635, org.springframework.security.web.header.HeaderWriterFilter@6c5ae8fd, org.springframework.web.filter.CorsFilter@12aa519b, org.springframework.security.web.authentication.logout.LogoutFilter@660296d5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d3163a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6caeba36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47198524, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c5c20ed, org.springframework.security.web.session.SessionManagementFilter@1aed6f0b, org.springframework.security.web.access.ExceptionTranslationFilter@45707f76, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a833595]
+00:35:40.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+00:35:40.366 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+00:35:40.381 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.655 seconds (JVM running for 5.506)
+00:35:41.356 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:35:41.358 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:35:41.359 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+00:35:58.937 [http-nio-80-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+00:35:59.223 [http-nio-80-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+00:59:23.991 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s552ms).
+01:08:27.217 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:08:27.244 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:08:33.152 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 23883 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:08:33.157 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:08:34.776 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:08:34.784 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:08:34.785 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:08:34.785 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:08:34.875 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:08:34.876 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+01:08:36.434 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4cfc0c48, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59d5c537, org.springframework.security.web.context.SecurityContextPersistenceFilter@31ab4859, org.springframework.security.web.header.HeaderWriterFilter@4b5798c2, org.springframework.web.filter.CorsFilter@5464b97c, org.springframework.security.web.authentication.logout.LogoutFilter@377dbc50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@531ec2ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a6dc5ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@483b7dc4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3355168, org.springframework.security.web.session.SessionManagementFilter@71039ce1, org.springframework.security.web.access.ExceptionTranslationFilter@660296d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64757d56]
+01:08:36.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:08:36.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:08:36.524 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 3.904 seconds (JVM running for 4.697)
+01:08:44.056 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:08:44.057 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:08:44.058 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:08:46.843 [http-nio-80-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:08:47.230 [http-nio-80-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:19:04.470 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:19:04.499 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:19:10.606 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24068 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:19:10.607 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:19:12.294 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:19:12.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:19:12.303 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:19:12.303 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:19:12.396 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:19:12.397 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1735 ms
+01:19:13.978 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ac756b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@156324b, org.springframework.security.web.context.SecurityContextPersistenceFilter@74764622, org.springframework.security.web.header.HeaderWriterFilter@41938e1e, org.springframework.web.filter.CorsFilter@38a38ed4, org.springframework.security.web.authentication.logout.LogoutFilter@77c692b4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5fa0141f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74fc3fc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f0e2bdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e29a81a, org.springframework.security.web.session.SessionManagementFilter@77ff14ce, org.springframework.security.web.access.ExceptionTranslationFilter@1282f784, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@483b7dc4]
+01:19:14.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:19:14.056 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:19:14.070 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.014 seconds (JVM running for 4.82)
+01:19:15.598 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:19:15.600 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:19:15.602 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:19:18.191 [http-nio-80-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:19:18.666 [http-nio-80-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:27:53.420 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:27:53.458 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:27:57.315 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24231 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:27:57.317 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:27:59.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:27:59.143 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:27:59.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:27:59.144 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:27:59.239 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:27:59.241 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1863 ms
+01:28:00.858 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25fa6889, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1de73d37, org.springframework.security.web.context.SecurityContextPersistenceFilter@491893f8, org.springframework.security.web.header.HeaderWriterFilter@60c98f25, org.springframework.web.filter.CorsFilter@31693a86, org.springframework.security.web.authentication.logout.LogoutFilter@166e5a6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d55dd21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17354708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47be41c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69d2e517, org.springframework.security.web.session.SessionManagementFilter@1eb906f3, org.springframework.security.web.access.ExceptionTranslationFilter@63dc3420, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ce30c0b]
+01:28:00.935 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:28:00.950 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:28:00.963 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.192 seconds (JVM running for 4.972)
+01:28:17.617 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:28:17.620 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:28:17.622 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+01:28:17.676 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:28:18.022 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:35:44.879 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:35:44.902 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:35:50.376 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24377 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:35:50.378 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:35:52.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:35:52.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:35:52.084 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:35:52.084 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:35:52.183 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:35:52.184 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1753 ms
+01:35:53.744 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@24a8e40d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@175f859e, org.springframework.security.web.context.SecurityContextPersistenceFilter@47198524, org.springframework.security.web.header.HeaderWriterFilter@4bbc21bd, org.springframework.web.filter.CorsFilter@69fe7090, org.springframework.security.web.authentication.logout.LogoutFilter@722b2728, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@740c4868, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a69f9d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@660296d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6501b105, org.springframework.security.web.session.SessionManagementFilter@d85b399, org.springframework.security.web.access.ExceptionTranslationFilter@77a2688d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a425cf5]
+01:35:53.813 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:35:53.832 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:35:53.846 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.008 seconds (JVM running for 4.806)
+01:35:56.015 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:35:56.017 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:35:56.019 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:35:56.107 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:35:56.479 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:40:43.740 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:40:43.765 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:40:48.355 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24473 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:40:48.357 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:40:49.998 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:40:50.007 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:40:50.007 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:40:50.007 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:40:50.100 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:40:50.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1687 ms
+01:40:51.818 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69d2e517, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f9a7684, org.springframework.security.web.context.SecurityContextPersistenceFilter@491893f8, org.springframework.security.web.header.HeaderWriterFilter@60c98f25, org.springframework.web.filter.CorsFilter@3b30eec5, org.springframework.security.web.authentication.logout.LogoutFilter@166e5a6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d55dd21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17354708, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47be41c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43755e2f, org.springframework.security.web.session.SessionManagementFilter@1eb906f3, org.springframework.security.web.access.ExceptionTranslationFilter@63dc3420, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55638165]
+01:40:51.894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:40:51.911 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:40:51.928 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.114 seconds (JVM running for 4.967)
+01:40:55.697 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:40:55.701 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:40:55.703 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:40:55.770 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:40:56.045 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:51:08.112 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:51:08.134 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:51:13.693 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24658 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:51:13.694 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:51:15.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:51:15.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:51:15.492 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:51:15.492 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:51:15.588 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:51:15.591 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1834 ms
+01:51:17.190 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66ab924, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6df2af02, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d55dd21, org.springframework.security.web.header.HeaderWriterFilter@4dd1d2bb, org.springframework.web.filter.CorsFilter@779228dc, org.springframework.security.web.authentication.logout.LogoutFilter@31d4b3e8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@278de2b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31b741e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d9de284, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f7336b2, org.springframework.security.web.session.SessionManagementFilter@67a0ff25, org.springframework.security.web.access.ExceptionTranslationFilter@8ac512e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1de73d37]
+01:51:17.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:51:17.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:51:17.287 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.184 seconds (JVM running for 5.012)
+01:52:25.070 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:52:25.071 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:52:25.073 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:52:25.137 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:52:25.621 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:59:26.789 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:59:26.811 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:59:32.051 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 24802 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+01:59:32.053 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+01:59:33.805 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+01:59:33.815 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+01:59:33.816 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:59:33.817 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+01:59:33.936 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:59:33.937 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1823 ms
+01:59:35.695 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70d5d96b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23469199, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b5798c2, org.springframework.security.web.header.HeaderWriterFilter@660296d5, org.springframework.web.filter.CorsFilter@75dc1c1c, org.springframework.security.web.authentication.logout.LogoutFilter@4fa91d5b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ce30c0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a84338a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@278de2b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5611bba, org.springframework.security.web.session.SessionManagementFilter@75d97e18, org.springframework.security.web.access.ExceptionTranslationFilter@1846ad0f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@778c2e7c]
+01:59:35.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+01:59:35.802 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+01:59:35.842 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.305 seconds (JVM running for 5.087)
+01:59:46.235 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:59:46.237 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:59:46.238 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+01:59:46.300 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:59:46.600 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:18:45.292 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s494ms).
+02:23:55.579 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m10s290ms).
+02:26:58.745 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s160ms).
+02:28:02.455 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s710ms).
+02:54:42.021 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m9s496ms).
+03:00:44.951 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:00:44.976 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:00:49.041 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25372 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:00:49.043 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:00:50.921 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:00:50.930 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:00:50.930 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:00:50.930 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:00:51.030 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:00:51.031 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1922 ms
+03:00:52.833 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@702096ef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f0d8937, org.springframework.security.web.context.SecurityContextPersistenceFilter@14e3d439, org.springframework.security.web.header.HeaderWriterFilter@77c692b4, org.springframework.web.filter.CorsFilter@105dc04d, org.springframework.security.web.authentication.logout.LogoutFilter@70f85235, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3d6778d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@432c0f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5597ca3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@504b8705, org.springframework.security.web.session.SessionManagementFilter@6caeba36, org.springframework.security.web.access.ExceptionTranslationFilter@608b35fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cf4dec7]
+03:00:52.915 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:00:52.932 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:00:52.949 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.46 seconds (JVM running for 5.245)
+03:01:10.823 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:01:10.825 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:01:10.826 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+03:01:10.932 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:01:11.207 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:03:18.141 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:03:18.158 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:03:22.166 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25425 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:03:22.169 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:03:23.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:03:23.821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:03:23.822 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:03:23.822 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:03:23.910 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:03:23.911 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1679 ms
+03:03:25.574 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4de91056, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2404abe2, org.springframework.security.web.context.SecurityContextPersistenceFilter@17354708, org.springframework.security.web.header.HeaderWriterFilter@1f0e2bdc, org.springframework.web.filter.CorsFilter@16cf7fd0, org.springframework.security.web.authentication.logout.LogoutFilter@5597ca3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31b741e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ebfb045, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14e3d439, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bc2bb58, org.springframework.security.web.session.SessionManagementFilter@44a93f8a, org.springframework.security.web.access.ExceptionTranslationFilter@1f408ab6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ff1f465]
+03:03:25.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:03:25.662 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:03:25.676 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.036 seconds (JVM running for 4.825)
+03:03:30.355 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:03:30.357 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:03:30.358 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:03:37.897 [http-nio-80-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:03:38.168 [http-nio-80-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:31:11.061 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:31:11.085 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:31:14.089 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25817 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:31:14.091 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:31:15.754 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:31:15.762 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:31:15.763 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:31:15.763 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:31:15.848 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:31:15.849 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1700 ms
+03:31:17.819 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@156324b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38a38ed4, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ba06506, org.springframework.security.web.header.HeaderWriterFilter@5d2e6f62, org.springframework.web.filter.CorsFilter@1e29a81a, org.springframework.security.web.authentication.logout.LogoutFilter@5fa0141f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6caeba36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@491893f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@682266d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b4b8199, org.springframework.security.web.session.SessionManagementFilter@733fae8, org.springframework.security.web.access.ExceptionTranslationFilter@41167ded, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b8bdcc6]
+03:31:17.897 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:31:17.916 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:31:17.929 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.313 seconds (JVM running for 6.044)
+03:31:19.895 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:31:19.897 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:31:19.898 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:31:58.525 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25830 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:31:58.527 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:32:00.161 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:32:00.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:32:00.170 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:32:00.170 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:32:00.259 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:32:00.260 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1652 ms
+03:32:02.216 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f7336b2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c030fe1, org.springframework.security.web.context.SecurityContextPersistenceFilter@432c0f1, org.springframework.security.web.header.HeaderWriterFilter@55e91e61, org.springframework.web.filter.CorsFilter@347123dc, org.springframework.security.web.authentication.logout.LogoutFilter@75cacb3e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61957d9c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@660296d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71039ce1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52433946, org.springframework.security.web.session.SessionManagementFilter@1d55dd21, org.springframework.security.web.access.ExceptionTranslationFilter@d85b399, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f9a7684]
+03:32:02.281 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:32:02.296 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:32:02.311 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.282 seconds (JVM running for 5.096)
+03:32:02.542 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:32:02.543 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:32:02.545 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:33:37.684 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:33:37.956 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:35:27.828 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:35:27.848 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:35:30.934 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25922 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:35:30.937 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:35:32.868 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:35:32.884 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:35:32.885 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:35:32.885 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:35:33.091 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:35:33.093 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2072 ms
+03:35:35.168 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52433946, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5403431a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1201e064, org.springframework.security.web.header.HeaderWriterFilter@7d6c4079, org.springframework.web.filter.CorsFilter@ab327c, org.springframework.security.web.authentication.logout.LogoutFilter@483b7dc4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b8bdcc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fdb7394, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31ab4859, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d798e76, org.springframework.security.web.session.SessionManagementFilter@432c0f1, org.springframework.security.web.access.ExceptionTranslationFilter@47198524, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d71e10b]
+03:35:35.239 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:35:35.254 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:35:35.266 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.866 seconds (JVM running for 5.674)
+03:35:38.813 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:35:38.815 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:35:38.816 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:35:38.954 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:35:39.207 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:36:57.188 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:36:57.224 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:37:00.778 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 25957 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:37:00.788 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:37:02.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:37:02.586 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:37:02.587 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:37:02.587 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:37:02.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:37:02.690 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1810 ms
+03:37:04.327 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52433946, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5403431a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1201e064, org.springframework.security.web.header.HeaderWriterFilter@7d6c4079, org.springframework.web.filter.CorsFilter@ab327c, org.springframework.security.web.authentication.logout.LogoutFilter@483b7dc4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b8bdcc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fdb7394, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31ab4859, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d798e76, org.springframework.security.web.session.SessionManagementFilter@432c0f1, org.springframework.security.web.access.ExceptionTranslationFilter@47198524, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d71e10b]
+03:37:04.448 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:37:04.505 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:37:04.527 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.216 seconds (JVM running for 5.151)
+03:37:07.740 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:37:07.741 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:37:07.743 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:37:07.874 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:37:08.164 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:38:24.828 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:38:24.859 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:38:28.353 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 26000 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:38:28.355 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:38:29.963 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:38:29.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:38:29.972 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:38:29.972 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:38:30.065 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:38:30.065 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1657 ms
+03:38:31.643 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59d5c537, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5464b97c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ca22e19, org.springframework.security.web.header.HeaderWriterFilter@7540160e, org.springframework.web.filter.CorsFilter@3355168, org.springframework.security.web.authentication.logout.LogoutFilter@531ec2ca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70884875, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31d4b3e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b8bdcc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f07930a, org.springframework.security.web.session.SessionManagementFilter@3348c987, org.springframework.security.web.access.ExceptionTranslationFilter@6d3163a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4813d0]
+03:38:31.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:38:31.722 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:38:31.738 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 3.913 seconds (JVM running for 4.779)
+03:38:39.007 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:38:39.009 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:38:39.010 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:38:39.139 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:38:39.420 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:38:50.950 [http-nio-80-exec-4] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-80-exec-4] Exception processing template "/backstage/admin": Error resolving template [/backstage/admin], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/backstage/admin], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:502)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+03:38:50.957 [http-nio-80-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/backstage/admin], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [/backstage/admin], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1406)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1150)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:502)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+03:38:54.004 [http-nio-80-exec-8] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:38:53 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=69, exceptionMessage=null)
+03:39:00.106 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+03:39:00.123 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+03:39:03.440 [main] INFO  com.info5100.travel.TravelApplication - Starting TravelApplication using Java 11.0.12 on melodydeMacBook-Air.local with PID 26016 (/Users/melody/Desktop/INFO5100FINAL/travel/target/classes started by melody in /Users/melody/Desktop/INFO5100FINAL/travel)
+03:39:03.442 [main] INFO  com.info5100.travel.TravelApplication - No active profile set, falling back to 1 default profile: "default"
+03:39:05.163 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+03:39:05.175 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+03:39:05.176 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+03:39:05.177 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.73]
+03:39:05.301 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:39:05.303 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1805 ms
+03:39:07.020 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@763b0996, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@386e9fd8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5597ca3, org.springframework.security.web.header.HeaderWriterFilter@284d4885, org.springframework.web.filter.CorsFilter@618f627b, org.springframework.security.web.authentication.logout.LogoutFilter@37e55819, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2bdcfcf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71039ce1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70f85235, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10745a02, org.springframework.security.web.session.SessionManagementFilter@a69f9d, org.springframework.security.web.access.ExceptionTranslationFilter@1d55dd21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16cf7fd0]
+03:39:07.125 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+03:39:07.141 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+03:39:07.153 [main] INFO  com.info5100.travel.TravelApplication - Started TravelApplication in 4.222 seconds (JVM running for 5.383)
+03:39:12.118 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03:39:12.120 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+03:39:12.121 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+03:39:54.998 [http-nio-80-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+03:39:55.254 [http-nio-80-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+03:53:50.796 [http-nio-80-exec-8] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:53:50 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=65, exceptionMessage=null)
+03:55:38.005 [http-nio-80-exec-8] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/role/all, visitTime=Sun Apr 02 03:55:37 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=67, exceptionMessage=null)
+03:55:53.345 [http-nio-80-exec-3] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:55:53 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=27, exceptionMessage=null)
+03:55:54.699 [http-nio-80-exec-10] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/desc, visitTime=Sun Apr 02 03:55:54 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=18, exceptionMessage=null)
+03:56:20.854 [http-nio-80-exec-3] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:56:20 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=33, exceptionMessage=null)
+03:56:22.526 [http-nio-80-exec-6] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/edit, visitTime=Sun Apr 02 03:56:22 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=20, exceptionMessage=null)
+03:56:43.551 [http-nio-80-exec-6] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:56:43 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=35, exceptionMessage=null)
+03:56:45.052 [http-nio-80-exec-5] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/findRole, visitTime=Sun Apr 02 03:56:45 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=39, exceptionMessage=null)
+03:57:08.775 [http-nio-80-exec-1] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:57:08 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=21, exceptionMessage=null)
+03:57:11.701 [http-nio-80-exec-2] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/updateStatus, visitTime=Sun Apr 02 03:57:11 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=31, exceptionMessage=null)
+03:57:11.769 [http-nio-80-exec-7] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:57:11 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=12, exceptionMessage=null)
+03:57:13.005 [http-nio-80-exec-5] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/updateStatus, visitTime=Sun Apr 02 03:57:12 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=21, exceptionMessage=null)
+03:57:13.090 [http-nio-80-exec-3] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 03:57:13 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=16, exceptionMessage=null)
+03:58:47.021 [http-nio-80-exec-2] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/role/all, visitTime=Sun Apr 02 03:58:46 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=34, exceptionMessage=null)
+03:59:12.310 [http-nio-80-exec-2] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/permission/all, visitTime=Sun Apr 02 03:59:12 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=40, exceptionMessage=null)
+04:02:32.024 [http-nio-80-exec-9] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/permission/all, visitTime=Sun Apr 02 04:02:31 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=24, exceptionMessage=null)
+04:03:02.042 [http-nio-80-exec-5] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/category/all, visitTime=Sun Apr 02 04:03:02 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=38, exceptionMessage=null)
+04:03:47.135 [http-nio-80-exec-2] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/product/all, visitTime=Sun Apr 02 04:03:47 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=62, exceptionMessage=null)
+04:14:17.686 [http-nio-80-exec-7] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 04:14:17 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=40, exceptionMessage=null)
+04:14:19.993 [http-nio-80-exec-7] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/desc, visitTime=Sun Apr 02 04:14:19 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=35, exceptionMessage=null)
+04:15:03.606 [http-nio-80-exec-6] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Sun Apr 02 04:15:03 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=50, exceptionMessage=null)
+04:16:19.063 [http-nio-80-exec-2] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/findRole, visitTime=Sun Apr 02 04:16:19 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=20, exceptionMessage=null)
+04:18:17.695 [http-nio-80-exec-8] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/role/all, visitTime=Sun Apr 02 04:18:17 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=25, exceptionMessage=null)
+04:19:07.345 [http-nio-80-exec-7] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/permission/all, visitTime=Sun Apr 02 04:19:07 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=24, exceptionMessage=null)
+06:59:45.053 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m48s781ms).
+08:22:33.820 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m48s774ms).
+09:48:19.664 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m45s845ms).
+11:12:43.417 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m23s752ms).
+11:18:27.572 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m44s156ms).
+11:20:56.267 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m28s695ms).
+11:24:25.955 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s687ms).
+11:41:35.899 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m39s925ms).
+12:09:13.011 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m37s112ms).
+12:42:23.082 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m40s2ms).
+13:04:50.775 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s539ms).
+14:31:24.011 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m3s153ms).
+14:34:50.218 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s199ms).
+14:38:55.263 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m5s46ms).
+14:42:40.452 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m45s189ms).
+14:44:51.987 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s535ms).
+14:48:44.296 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s309ms).
+14:52:10.123 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m25s826ms).
+14:56:02.818 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s696ms).
+15:00:41.436 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m38s617ms).
+15:04:12.463 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m31s28ms).
+15:07:57.610 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m45s147ms).
+15:11:56.486 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s876ms).
+15:15:32.362 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m35s876ms).
+15:18:12.709 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s347ms).
+15:21:30.063 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m17s353ms).
+15:25:17.880 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m47s818ms).
+15:28:55.992 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s112ms).
+15:31:19.815 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m23s823ms).
+15:39:30.685 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m10s869ms).
+16:00:42.101 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m41s325ms).
+16:23:43.890 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m1s790ms).
+16:34:59.699 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m15s796ms).
+16:43:18.386 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m18s688ms).
+17:44:28.258 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m39s849ms).
+18:53:21.087 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m52s829ms).
+19:05:18.239 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m57s152ms).
+19:50:58.667 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s526ms).
+19:56:43.261 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m14s562ms).
+21:20:16.123 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m2s552ms).
+23:46:23.961 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m7s530ms).
+00:54:39.382 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m15s422ms).
+01:44:10.667 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m31s285ms).
+03:04:57.475 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m46s808ms).
+04:28:24.186 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m26s711ms).
+05:53:07.832 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m43s646ms).
+07:14:12.409 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m4s576ms).
+08:37:32.259 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m19s851ms).
+10:02:39.057 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m6s798ms).
+11:27:43.703 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m4s646ms).
+12:08:55.780 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m12s76ms).
+12:10:25.673 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s894ms).
+13:17:25.674 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m29s990ms).
+14:38:59.752 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m34s78ms).
+15:17:12.046 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m12s291ms).
+15:23:26.951 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m14s905ms).
+16:37:17.735 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m50s490ms).
+16:40:37.765 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s998ms).
+17:27:38.810 [http-nio-80-exec-5] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Mon Apr 03 17:27:38 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=47, exceptionMessage=null)
+17:29:06.042 [http-nio-80-exec-5] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Mon Apr 03 17:29:06 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=28, exceptionMessage=null)
+17:29:07.962 [http-nio-80-exec-4] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/edit, visitTime=Mon Apr 03 17:29:07 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=7, exceptionMessage=null)
+17:29:09.626 [http-nio-80-exec-10] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Mon Apr 03 17:29:09 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=23, exceptionMessage=null)
+17:29:12.381 [http-nio-80-exec-8] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/edit, visitTime=Mon Apr 03 17:29:12 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=10, exceptionMessage=null)
+18:00:39.041 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m30s941ms).
+18:17:27.679 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m18s620ms).
+18:46:34.616 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m6s770ms).
+20:28:24.720 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s981ms).
+22:40:24.647 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m59s265ms).
+23:30:09.101 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m44s455ms).
+00:04:47.163 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m38s62ms).
+01:30:09.894 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m22s731ms).
+02:52:16.186 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m6s292ms).
+04:14:51.931 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m35s744ms).
+05:37:00.631 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m8s701ms).
+07:01:54.301 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m53s670ms).
+08:25:06.981 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m12s679ms).
+09:49:38.715 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m31s735ms).
+10:25:24.973 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m46s258ms).
+11:19:00.506 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m5s235ms).
+11:25:50.828 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m50s316ms).
+11:41:37.942 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s114ms).
+12:18:24.071 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m45s947ms).
+12:35:40.603 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m16s533ms).
+13:03:26.223 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m45s620ms).
+14:22:21.795 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m55s572ms).
+14:39:14.266 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m52s471ms).
+14:53:14.901 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m634ms).
+14:59:10.888 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s956ms).
+15:22:01.993 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m21s49ms).
+16:43:04.748 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m2s755ms).
+17:52:48.066 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m43s319ms).
+18:33:26.884 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m38s814ms).
+18:36:00.154 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s272ms).
+18:58:11.219 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m11s66ms).
+19:03:50.436 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m39s217ms).
+19:18:02.943 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m42s499ms).
+19:19:24.666 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s724ms).
+19:20:59.887 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s221ms).
+19:23:52.588 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m52s700ms).
+19:36:34.962 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m42s374ms).
+19:57:54.061 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m19s100ms).
+20:10:45.072 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m46s115ms).
+20:17:08.246 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m23s174ms).
+20:26:42.869 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m34s623ms).
+20:34:57.219 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m14s350ms).
+20:45:30.489 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m33s222ms).
+21:01:34.957 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m34s457ms).
+23:28:53.889 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s751ms).
+23:48:09.453 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m15s474ms).
+00:12:10.580 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m1s128ms).
+00:27:20.942 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m10s363ms).
+01:13:00.195 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m39s253ms).
+02:23:01.221 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h10m1s26ms).
+03:06:21.819 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m20s598ms).
+04:21:47.888 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m26s69ms).
+05:18:52.222 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m4s333ms).
+06:43:19.074 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m26s852ms).
+08:05:35.737 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m16s664ms).
+09:29:29.424 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m53s687ms).
+10:36:50.268 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m20s844ms).
+10:46:58.353 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m8s67ms).
+11:59:26.066 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m57s268ms).
+12:17:14.231 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s64ms).
+12:51:55.609 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m41s223ms).
+13:03:52.485 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m56s876ms).
+14:23:41.886 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m49s309ms).
+15:04:10.708 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m28s824ms).
+15:10:09.453 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s747ms).
+15:11:49.546 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s93ms).
+15:28:42.833 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m53s288ms).
+16:01:03.254 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m20s421ms).
+16:45:15.430 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m12s175ms).
+17:04:30.168 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s622ms).
+17:14:21.314 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s100ms).
+17:23:30.144 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m38s791ms).
+17:58:52.383 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s51ms).
+19:49:06.641 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s428ms).
+20:24:24.138 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m17s325ms).
+21:04:44.119 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m19s957ms).
+22:07:01.554 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m17s435ms).
+23:29:20.368 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m18s815ms).
+00:50:46.668 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m26s300ms).
+02:15:43.001 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m56s332ms).
+03:09:32.136 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m49s136ms).
+04:16:38.874 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m6s738ms).
+05:41:07.167 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m28s293ms).
+07:07:16.949 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h26m9s777ms).
+08:28:41.540 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m24s596ms).
+09:53:05.265 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m23s725ms).
+10:35:04.231 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m58s965ms).
+10:36:28.941 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s697ms).
+11:32:00.988 [http-nio-80-exec-3] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Thu Apr 06 11:32:00 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=36, exceptionMessage=null)
+11:32:01.924 [http-nio-80-exec-6] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/role/all, visitTime=Thu Apr 06 11:32:01 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=20, exceptionMessage=null)
+11:32:02.614 [http-nio-80-exec-9] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/permission/all, visitTime=Thu Apr 06 11:32:02 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=26, exceptionMessage=null)
+11:56:11.673 [http-nio-80-exec-1] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/admin/all, visitTime=Thu Apr 06 11:56:11 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=60, exceptionMessage=null)
+11:56:12.861 [http-nio-80-exec-3] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/role/all, visitTime=Thu Apr 06 11:56:12 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=33, exceptionMessage=null)
+11:56:13.927 [http-nio-80-exec-1] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/permission/all, visitTime=Thu Apr 06 11:56:13 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=16, exceptionMessage=null)
+11:56:15.694 [http-nio-80-exec-7] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/product/all, visitTime=Thu Apr 06 11:56:15 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=35, exceptionMessage=null)
+11:56:16.534 [http-nio-80-exec-4] INFO  com.info5100.travel.aop.LogAop - Log(url=/backstage/category/all, visitTime=Thu Apr 06 11:56:16 PDT 2023, username=baizhan, ip=0:0:0:0:0:0:0:1, executionTime=45, exceptionMessage=null)
+12:12:41.801 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m12s583ms).
+12:14:41.277 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s479ms).
+12:24:59.585 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m45s894ms).
+12:31:14.256 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m14s670ms).
+13:55:26.704 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m42s415ms).
+14:49:19.296 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m52s592ms).
+15:41:32.160 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m12s864ms).
+16:26:59.091 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m26s931ms).
+16:47:43.860 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m44s768ms).
+17:15:57.191 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m13s332ms).
+17:21:18.555 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m51s349ms).
+17:31:42.500 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m23s945ms).
+17:47:49.631 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m37s129ms).
+19:05:03.103 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m12s783ms).
+19:22:05.925 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m2s804ms).
+20:29:27.809 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m51s130ms).
+20:33:47.701 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m19s879ms).
+20:49:43.070 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m25s287ms).
+21:35:18.874 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m35s495ms).
+21:43:30.827 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m11s957ms).
+21:51:38.472 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s582ms).
+22:07:42.528 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s54ms).
+22:24:39.132 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m26s563ms).
+03:29:24.701 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m42s253ms).
+04:49:35.607 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m10s915ms).
+04:59:53.173 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m17s567ms).
+06:23:53.924 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m30s755ms).
+07:49:23.738 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h25m29s814ms).
+09:13:21.325 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m57s587ms).
+10:36:14.809 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m53s483ms).
+10:50:53.421 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m38s612ms).
+12:15:47.429 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m53s557ms).
+12:35:05.371 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m17s943ms).
+12:45:30.528 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m25s118ms).
+13:39:23.531 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m22s981ms).
+13:56:02.497 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m38s967ms).
+13:58:02.504 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7ms).
+16:11:19.033 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m45s738ms).
+17:01:38.906 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s357ms).
+17:02:40.058 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m1s153ms).
+17:09:43.844 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s749ms).
+17:11:47.568 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s725ms).
+17:35:17.509 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m29s941ms).
+17:44:18.596 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m1s87ms).
+17:50:43.431 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m24s834ms).
+18:09:45.918 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m2s486ms).
+18:11:00.161 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s244ms).
+18:36:59.937 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s589ms).
+18:41:46.748 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m46s812ms).
+18:55:45.248 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m28s369ms).
+19:04:18.526 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m3s256ms).
+19:38:46.521 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s777ms).
+19:43:50.533 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m4s13ms).
+19:47:57.932 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m37s378ms).
+20:00:46.110 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s92ms).
+21:13:45.212 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s402ms).
+21:19:14.095 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s886ms).
+21:25:12.339 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s228ms).
+21:41:25.571 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m13s232ms).
+22:59:46.761 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m50s389ms).
+00:12:05.260 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m17s667ms).
+00:28:16.919 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m11s661ms).
+00:33:46.433 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m59s479ms).
+00:34:38.520 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s89ms).
+00:52:19.816 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m11s280ms).
+02:08:35.666 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m45s44ms).
+02:31:07.863 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m2s113ms).
+03:21:20.477 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m42s592ms).
+04:17:24.738 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56m4s263ms).
+05:40:36.449 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s708ms).
+07:04:00.350 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m23s903ms).
+08:26:37.322 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m36s972ms).
+09:34:34.978 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m57s656ms).
+10:39:30.405 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m55s427ms).
+11:59:09.638 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m39s234ms).
+13:23:26.478 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m16s839ms).
+13:44:06.456 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m39s979ms).
+14:48:23.664 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m17s207ms).
+16:10:20.607 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m56s943ms).
+17:31:16.276 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m55s669ms).
+17:53:40.553 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m24s277ms).
+17:57:10.413 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m29s860ms).
+17:58:39.884 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s471ms).
+18:48:58.951 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m49s58ms).
+20:12:09.995 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s44ms).
+21:54:10.530 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m535ms).
+23:33:12.337 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h39m1s807ms).
+00:52:23.491 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m11s153ms).
+02:32:39.303 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m15s813ms).
+03:55:20.976 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m41s672ms).
+05:16:54.099 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m33s124ms).
+06:38:36.304 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m42s205ms).
+08:14:35.096 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m58s792ms).
+09:52:54.762 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h38m19s666ms).
+11:17:23.748 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m28s985ms).
+13:00:01.509 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h42m37s762ms).
+14:36:56.219 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m54s709ms).
+15:59:35.319 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m39s100ms).
+17:40:07.933 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m32s615ms).
+18:21:49.358 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m41s424ms).
+19:20:30.033 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m40s275ms).
+20:41:45.181 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m15s148ms).
+21:12:40.185 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m55s3ms).
+21:43:32.510 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m22s179ms).
+21:49:40.728 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m8s218ms).
+23:07:10.478 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m29s379ms).
+00:22:28.374 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m17s885ms).
+01:14:28.311 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m29s937ms).
+02:05:06.093 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m37s782ms).
+02:28:27.161 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m21s65ms).
+02:45:10.259 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s100ms).
+03:01:18.865 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m8s588ms).
+03:35:21.968 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m3s121ms).
+04:42:22.285 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m318ms).
+04:58:16.127 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m53s748ms).
+05:31:57.750 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m41s532ms).
+05:49:51.592 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m53s845ms).
+06:36:12.658 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m21s66ms).
+07:11:29.892 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m17s233ms).
+08:35:32.270 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h24m2s378ms).
+08:41:23.228 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m50s958ms).
+10:03:50.654 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m27s426ms).
+11:27:03.281 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m12s627ms).
+12:47:50.897 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m47s615ms).
+14:02:14.218 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h14m23s323ms).
+14:09:55.908 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s689ms).
+14:51:38.713 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m12s791ms).
+15:51:06.430 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m27s716ms).
+16:02:14.883 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m8s454ms).
+17:20:26.131 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m11s235ms).
+18:29:50.392 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m24s260ms).
+19:49:15.977 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h19m25s585ms).
+20:16:35.514 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m19s537ms).
+11:56:45.735 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m27s821ms).
+13:13:15.933 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s125ms).
+13:30:49.953 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m3s901ms).
+13:49:57.229 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m37s236ms).
+14:08:00.301 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m33s49ms).
+14:26:18.561 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m48s253ms).
+14:41:53.777 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m35s216ms).
+14:57:56.082 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m32s291ms).
+15:14:30.371 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s267ms).
+15:32:43.686 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m43s285ms).
+15:48:33.672 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m49s986ms).
+17:05:38.886 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s547ms).
+17:21:49.049 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m40s153ms).
+17:37:20.198 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m31s150ms).
+19:12:44.095 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m22s692ms).
+19:29:11.269 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m27s176ms).
+19:45:58.421 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m17s145ms).
+20:02:25.294 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m26s873ms).
+20:18:37.425 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m42s125ms).
+20:35:04.665 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s235ms).
+20:54:46.437 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m41s739ms).
+21:13:11.598 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m55s151ms).
+21:29:48.749 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m37s151ms).
+21:47:38.993 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m20s241ms).
+21:52:08.704 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s664ms), soft-evicting connections from pool.
+14:42:59.791 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s241ms).
+14:48:57.456 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s624ms).
+14:56:56.072 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m28s583ms).
+15:02:23.632 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s560ms).
+15:08:21.238 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s592ms).
+16:24:27.607 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m35s594ms).
+17:42:35.927 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m37s630ms).
+18:58:14.648 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m8s58ms).
+20:15:10.595 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m55s187ms).
+20:31:10.160 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s555ms).
+20:47:53.754 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m43s594ms).
+21:06:19.701 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s914ms).
+21:11:41.905 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m52s187ms).
+21:13:48.128 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s887ms).
+21:36:59.724 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m41s403ms).
+21:46:24.588 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m24s863ms).
+23:23:42.397 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m17s366ms).
+23:24:59.551 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m17s157ms).
+00:16:16.285 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m16s732ms).
+01:21:51.313 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m35s30ms).
+02:42:34.929 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m43s616ms).
+03:17:27.904 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m52s975ms).
+04:08:17.774 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m49s870ms).
+04:58:30.825 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m13s50ms).
+06:21:17.817 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m46s992ms).
+07:42:41.407 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m23s590ms).
+09:06:33.003 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m51s596ms).
+10:29:01.244 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m28s241ms).
+10:40:40.036 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m38s793ms).
+10:42:23.447 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m43s411ms).
+11:19:05.237 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m41s664ms).
+11:47:52.431 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=21m17s141ms).
+12:05:03.037 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s538ms).
+12:33:48.392 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+12:33:48.497 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
