@@ -1,6 +1,19 @@
 # final-project-dadaocao
 final-project-dadaocao created by GitHub Classroom
-The project creates a web application: Dadaocao Travel. The project is divided into administrator side and user side. The administrator side (background) is mainly for the maintenance of tourism products, and the user side (front desk) is mainly for demonstration of tourism products. The scope of management includes the creating, displaying, editing, deleting, searching and displaying of data. This system is highly adaptable and can be modified flexibly and conveniently to adapt to different types of small businesses, helping self-employed individuals to efficiently integrate and manage their own data.
+The project creates a web application: Dadaocao Travel. 
+
+The project is divided into administrator side and user side. 
+
+The administrator side (background) is mainly for the maintenance of tourism products, 
+
+and the user side (front desk) is mainly for demonstration of tourism products. The scope of management includes the creating, displaying, editing, deleting, searching and displaying of data. 
+
+This system is highly adaptable and can be modified flexibly and conveniently to adapt to different types of small businesses, helping self-employed individuals to efficiently integrate and manage their own data.
+
+![DemoBackstage](DemoBackstage.gif)
+![DemoFrontdesk](DemoFrontdesk.gif)
+![DemoMemberRegister](DemoMemberRegister.gif)
+![DemoUserEmailValidation](DemoUserEmailValidation.gif)
 
 # Technology Selection
 
@@ -19,3 +32,5 @@ Template engine: Thymeleaf
 Tool class: Email tool class, verification code generation tool class
 
 Other technologies: lombok, ajax, logback
+
+
